@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
-import { matrix } from '@/data/matrix'
+import styles from '../styles/Home.module.css'
+import { matrix } from '../data/matrix'
 import { useState,useEffect } from 'react'
-import Accordion from '@/components/Accordion'
+import Accordion from '../components/Accordion'
 
 export default function Home() {
 
