@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { matrix } from '../data/matrix'
+import { matrix } from '../data/matrix.js'
 import { useState,useEffect } from 'react'
 import Accordion from '../components/Accordion'
 
